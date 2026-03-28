@@ -136,7 +136,7 @@ struct GannSquareView: View {
                             TextField("ej. 100", text: $inputText)
                                 .keyboardType(.decimalPad)
                                 .font(.system(.title2, design: .monospaced))
-                                .fontWeight(.bold)
+                                .font(.body.weight(.bold))
                                 .foregroundColor(.orange)
                                 .padding(10)
                                 .background(RoundedRectangle(cornerRadius: 10).fill(Color.white.opacity(0.08)))
