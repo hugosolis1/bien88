@@ -39,7 +39,7 @@ struct DegreeFinderView: View {
                             TextField("ej. 111", text: $targetDegree)
                                 .keyboardType(.numberPad)
                                 .font(.system(.title2, design: .monospaced))
-                                .fontWeight(.bold)
+                                .font(.body.weight(.bold))
                                 .foregroundColor(.yellow)
                                 .padding(10)
                                 .background(RoundedRectangle(cornerRadius: 10).fill(Color.white.opacity(0.08)))
